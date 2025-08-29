@@ -2,7 +2,7 @@
 title: "Nimíipuu Consultants and Interviewees"
 section: People
 layout: page
-permalink: /consultants.html
+permalink: /people/consultants.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID302.html
 ---
 

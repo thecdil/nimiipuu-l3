@@ -2,7 +2,7 @@
 title: '"Squaw"'
 section: Expedition
 layout: page
-permalink: /squaw.html
+permalink: /expedition/squaw.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID174.html
 ---
 

@@ -20,9 +20,9 @@ Some of our southern neighbors, such as the Shoshone and Bannock, called us "peo
 
 Our southern neighbors also referred to as "Cous eaters," because of the roots we gathered. One of the principle roots we relied upon was [cous](({{ '/items/nimiipuu-l3-045.html' | relative_url }}). Cous is used for food and medicine.
 
-{% include feature/image objectid="nimiipuu-l3-046" caption="Heart of the Monster, along the Clearwater River, near Kamiah, photo taken by J. A. Hussey, c. 1963. Photo courtesy of the Nez Perce National Historical Park" %}
+{% include feature/image.html objectid="nimiipuu-l3-046" caption="Heart of the Monster, along the Clearwater River, near Kamiah, photo taken by J. A. Hussey, c. 1963. Photo courtesy of the Nez Perce National Historical Park" %}
 
-{% include feature/image objectid="nimiipuu-l3-047" caption="The Heart of the Monster, Slayed by Coyote, near Kamiah, c. 2001. Photo by Rodney Frey." %}
+{% include feature/image.html objectid="nimiipuu-l3-047" caption="The Heart of the Monster, Slayed by Coyote, near Kamiah, c. 2001. Photo by Rodney Frey." %}
 
 Whether we call ourselves by the name _Cuupn_'_itpel_'_uu_, Nez Perce, _Nimíipuu_, or '_Iceyéeyenim mamáy_'_ac_, we have been here since time immemorial, traveling [a vast territory]({{ '/culture/territory.html' | relative_url }}). When '_Iceyéeye_, [Coyote, killed the Swallowing Monster near Kamiah]({{ '/culture/coyote.html' | relative_url }}), he sprinkled the blood of the monster upon the earth and a people strong in heart and strong in mind, the _Nimíipuu_, were created.
 

@@ -28,10 +28,13 @@ Whether we call ourselves by the name _Cuupn_'_itpel_'_uu_, Nez Perce, _Nimíipu
 
 **We welcome you** to this module to learn about the ways of the _Nimíipuu_ - our history and culture, and our contemporary lives. We have organized this module into the following **Topics**:
 
-| --- | --- | --- |
-| **[_Nimíipuu_ Culture]({{ '/culture/oral-traditions.html' | relative_url }})** under **Native American** | **[Contemporary Programs]({{ '/culture/self-determination.html' | relative_url }})** under **Culture** | **[_Nimíipuu_ - U.S. History]{{ '/culture/disease.html' | relative_url }})** under **U.S.** |
-| **[Acknowledgments and Cultural Property Rights]({{ '/culture/acknowledgements.html' | relative_url }})** |
-| **[Lewis and Clark: A _Nimíipuu_ Perspective]({{ '/expedition/index.html' | relative_url }})** under **Expedition** | **[_Nimíipuu_ Biographies]{{ '/people/index.html' | relative_url }})** under **People** | **[Maps]({{ '/maps/index.html' | relative_url }})** under **Maps** |
+- **[_Nimíipuu_ Culture]({{ '/culture/oral-traditions.html' | relative_url }})** under **Native American** 
+- **[Contemporary Programs]({{ '/culture/self-determination.html' | relative_url }})** under **Culture**
+- **[_Nimíipuu_ - U.S. History]({{ '/culture/disease.html' | relative_url }})** under **U.S.**
+- **[Acknowledgments and Cultural Property Rights]({{ '/culture/acknowledgements.html' | relative_url }})** 
+- **[Lewis and Clark: A _Nimíipuu_ Perspective]({{ '/expedition/index.html' | relative_url }})** under **Expedition** 
+- **[_Nimíipuu_ Biographies]({{ '/people/index.html' | relative_url }})** under **People** 
+- **[Maps]({{ '/maps/index.html' | relative_url }})** under **Maps** |
 
 © Nez Perce Tribe 2002
 

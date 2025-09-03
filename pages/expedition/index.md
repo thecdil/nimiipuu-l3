@@ -10,7 +10,7 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID80E
 
 {% include feature/video.html objectid="nimiipuu-l3-020" caption='A 1954 American view of the "wilderness," from the Encyclopedia Britannica Film, "Lewis and Clark"' %}
 
-{% include feature/video.html objectid="nimiipuu-l3-021" caption='"Lewis and Clark," the 17-minute 1954 Encyclopedia Britannica Film' %}
+[View the full "Lewis and Clark," 17-minute 1954 Encyclopedia Britannica Film]({{ '/items/nimiipuu-l3-021.html' | relative_url }})
 
 ------
 

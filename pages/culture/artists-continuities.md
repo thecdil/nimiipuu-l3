@@ -38,7 +38,7 @@ The Nez Perce Leepwey Arts Council is most generously funded by the Nez Perce Tr
 
 {% include feature/image.html objectid="nimiipuu-l3-061;nimiipuu-l3-062;nimiipuu-l3-063;nimiipuu-l3-064;nimiipuu-l3-065;nimiipuu-l3-066;nimiipuu-l3-067;nimiipuu-l3-068;nimiipuu-l3-069;nimiipuu-l3-070;nimiipuu-l3-071;nimiipuu-l3-072;nimiipuu-l3-073;nimiipuu-l3-074" %}
 
-For additional discussions on _Nimíipuu_ aesthetic expressions in this module, see [Traditional Clothing Styles], [Horse in _Nimíipuu_ Culture], [To Sing and Dance], [Seasonal Round - Winter to Spring], [Seasonal Round - Spring to Winter], and [Contemporary Artists: Fusions]({{ '/culture/artists-fusions.html' | relative_url }}).
+For additional discussions on _Nimíipuu_ aesthetic expressions in this module, see [Traditional Clothing Styles]({{ '/culture/clothing.html' | relative_url }}), [Horse in _Nimíipuu_ Culture]({{ '/culture/horse.html' | relative_url }}), [To Sing and Dance]({{ '/culture/sing-past.html' | relative_url }}), [Seasonal Round - Winter to Spring]({{ '/culture/winter-to-summer.html' | relative_url }}), [Seasonal Round - Spring to Winter]({{ '/culture/summer-to-winter.html' | relative_url }}), and [Contemporary Artists: Fusions]({{ '/culture/artists-fusions.html' | relative_url }}).
 
 For more information on the Nez Perce Leepwey Arts Council:<br>
 208-843-7409<br>

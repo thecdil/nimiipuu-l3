@@ -29,6 +29,7 @@
     {%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
     {% capture video_caption %}{% if include.caption %}{{ include.caption }}{% else %}<a href="{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}">{{ item.title }}</a>{% endif %}{% endcapture %}
     {% capture raw_src %}{{ item.object_location }}{% endcapture %}
+    {% assign video_poster = item.image_small | default: item.image_thumb | default: '' %}
 {%- endif -%}
 {%- if raw_src contains 'vimeo' -%}
     {% assign vimeo_id = raw_src | split: '/' | last %}
@@ -47,7 +48,7 @@
             {%- if video_src contains "vimeo" or video_src contains "youtu" -%}
             <iframe title="video embed {{ video_caption | escape }}" src="{{ video_src }}" allowfullscreen></iframe>
             {% else %}
-            <video width="320" height="240" controls>
+            <video width="320" height="240" {% if video_poster != '' %}poster="{{ video_poster | relative_url }}"{% endif %} preload="metadata" controls>
                 <source src="{{ video_src }}">
                 Your browser does not support the video tag.
             </video>

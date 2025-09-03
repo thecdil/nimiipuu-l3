@@ -18,7 +18,7 @@ One of the most successful endeavors to support various artistic expression come
 
 Many of the NPLAC programs are for school age children but we do offer workshops at the intermediate and highly skilled levels. Our Native American film festival from a couple of years ago featured "Smoke Signals" by Sherman Alexie. That was a big hit and allowed us another way to bring in works by other great talents.
 
-{% include feature/video.html objectid="nimiipuu-l3-057" caption="Josiah Pinkham discusses the use of téhey ("trade cloth") on a beaded hatchet made by Kevin Peters. (Interviewed by Rodney Frey, March 2002)" %}
+{% include feature/video.html objectid="nimiipuu-l3-057" caption='Josiah Pinkham discusses the use of téhey ("trade cloth") on a beaded hatchet made by Kevin Peters. (Interviewed by Rodney Frey, March 2002)' %}
 
 Our council has a retreat every May to determine the plans for the year to follow. There is a constant awareness to focus on having Nez Perce cultural events that promote interest and pride in our heritage. Because of this, the council has prioritized the old art form of telling Nez Perce legends into making them new again. We are working very hard to give the community a schedule that provides the opportunity for mastery of the arts and have relevance to what they are trying to achieve as artists.
 

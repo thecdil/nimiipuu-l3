@@ -1,7 +1,7 @@
 ---
 title: '"Squaw"'
 section: Expedition
-layout: page
+layout: section-page
 permalink: /expedition/squaw.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID174.html
 ---

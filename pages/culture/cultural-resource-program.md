@@ -1,7 +1,7 @@
 ---
 title: Cultural Resource Program
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/cultural-resource-program.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID89.html
 ---

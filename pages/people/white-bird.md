@@ -1,7 +1,7 @@
 ---
 title: White Bird
 section: People
-layout: page
+layout: section-page
 permalink: /people/white-bird.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID225.html
 ---

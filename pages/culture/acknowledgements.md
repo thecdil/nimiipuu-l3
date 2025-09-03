@@ -1,7 +1,7 @@
 ---
 title: Acknowledgements and Cultural Property
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/acknowledgements.html
 original: https://www.lib.uidaho.edu/digital/L3/showoneobjectSiteID34ObjectID568-2.html
 ---

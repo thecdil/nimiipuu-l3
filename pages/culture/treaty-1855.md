@@ -1,7 +1,7 @@
 ---
 title: Treaty of 1855
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/treaty-1855.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID90.html
 ---

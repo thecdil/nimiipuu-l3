@@ -1,7 +1,7 @@
 ---
 title: Lawyer
 section: People
-layout: page
+layout: section-page
 permalink: /people/lawyer.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID215.html
 ---

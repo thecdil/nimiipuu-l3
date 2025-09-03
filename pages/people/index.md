@@ -1,7 +1,7 @@
 ---
 title: Nimíipuu
 section: People
-layout: page
+layout: section-page
 permalink: /people/index.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID100ExpeditionID.html
 ---

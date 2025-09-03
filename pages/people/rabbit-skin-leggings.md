@@ -1,7 +1,7 @@
 ---
 title: Rabbit Skin Leggings
 section: People
-layout: page
+layout: section-page
 permalink: /people/rabbit-skin-leggings.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID221.html
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Sovereignty: Underlying Legal Principles"
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/sovereignty.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID307.html
 ---

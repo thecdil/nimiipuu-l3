@@ -1,7 +1,7 @@
 ---
 title: Ellis
 section: People
-layout: page
+layout: section-page
 permalink: /people/ellis.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID212.html
 ---

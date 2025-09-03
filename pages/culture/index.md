@@ -1,7 +1,7 @@
 ---
 title: Since Time Immemorial
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/index.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID79ExpeditionID.html
 ---

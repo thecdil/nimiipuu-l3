@@ -1,7 +1,7 @@
 ---
 title: Cultural Property Rights Agreement
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/cultural-property-rights.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID303.html
 ---

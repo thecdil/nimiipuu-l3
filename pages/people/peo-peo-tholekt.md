@@ -1,7 +1,7 @@
 ---
 title: Peo peo Tholekt
 section: People
-layout: page
+layout: section-page
 permalink: /people/peo-peo-tholekt.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID220.html
 ---

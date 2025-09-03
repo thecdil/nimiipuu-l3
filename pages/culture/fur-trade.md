@@ -1,7 +1,7 @@
 ---
 title: Fur Trade
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/fur-trade.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID151.html
 ---

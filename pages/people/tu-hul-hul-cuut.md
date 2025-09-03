@@ -1,7 +1,7 @@
 ---
 title: "Tu hul hul'cuut'"
 section: People
-layout: page
+layout: section-page
 permalink: /people/tu-hul-hul-cuut.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID222.html
 ---

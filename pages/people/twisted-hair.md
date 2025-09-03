@@ -1,7 +1,7 @@
 ---
 title: Twisted Hair
 section: People
-layout: page
+layout: section-page
 permalink: /people/twisted-hair.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID224.html
 ---

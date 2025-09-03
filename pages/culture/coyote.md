@@ -1,7 +1,7 @@
 ---
 title: Coyote and the Swallowing Monster
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/coyote.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID91.html
 ---

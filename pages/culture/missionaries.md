@@ -1,7 +1,7 @@
 ---
 title: Missionaries and Christianity
 section: Culture
-layout: page
+layout: section-page
 permalink: /culture/missionaries.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID97.html
 ---

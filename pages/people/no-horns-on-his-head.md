@@ -1,7 +1,7 @@
 ---
 title: No Horns on His Head
 section: People
-layout: page
+layout: section-page
 permalink: /people/no-horns-on-his-head.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID218.html
 ---

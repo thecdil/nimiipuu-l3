@@ -1,7 +1,7 @@
 ---
 title: Yellow Wolf
 section: People
-layout: page
+layout: section-page
 permalink: /people/yellow-wolf.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID226.html
 ---

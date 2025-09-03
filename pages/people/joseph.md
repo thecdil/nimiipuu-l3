@@ -1,7 +1,7 @@
 ---
 title: Joseph
 section: People
-layout: page
+layout: section-page
 permalink: /people/joseph.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID214.html
 ---

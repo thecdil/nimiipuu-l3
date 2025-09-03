@@ -1,7 +1,7 @@
 ---
 title: Sam Morris
 section: People
-layout: page
+layout: section-page
 permalink: /people/sam-morris.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID217.html
 ---

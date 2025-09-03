@@ -1,0 +1,105 @@
+---
+# pages with sidebar nav 
+layout: default
+---
+<div id="breadcrumb-header" class="py-2 bg-white border-bottom">
+    <div class="container-xxl d-flex align-items-center">
+
+      <button class="btn" id="sidebarToggle" title="Toggle sidebar navigation" aria-controls="sidebar-wrapper">
+        Section Content
+      </button>
+      
+      <nav aria-label="Sections">
+        <ul class="breadcrumb ms-3 mb-0 bg-white">
+          <li class="breadcrumb-item">
+            <a href="{{ '/' | relative_url }}">Home</a>
+          </li>
+          {% if page.section  %}
+          <li class="breadcrumb-item">{{ page.section }}</li>
+          {% endif %}
+          <li class="breadcrumb-item" aria-current="page">{{ page.title }}</li>
+        </ol>
+      </nav>
+
+    </div>
+</div>
+
+<div class="container-xxl" id="wrapper">
+    <!-- Sidebar-->
+    <div class="py-4 pe-3 bg-white" id="sidebar-wrapper">
+
+      <nav aria-label="Lesson content navigation">
+
+        <ul class="list-unstyled ps-0 pt-1">
+
+            {% assign active = site.data.nimiipuu-page-nav | where: 'stub', page.url | first %}
+            {% capture subsections %}{% if page.section == 'Culture' %}Culture;Native American;U.S.{% else %}{{ page.section }}{% endif %}{% endcapture %}
+            {% assign subsections = subsections | split: ';' %}
+            {% for s in subsections %}
+            <li class="mb-2">
+                {% assign children = site.data.nimiipuu-page-nav | where: 'subsection', s %}
+                <h2 class="h4">{{ s }}</h2>
+                <ul class="list-unstyled fw-normal pb-3 small">
+                    {% for c in children %}
+                    <li><a href="{{ c.stub | relative_url }}" class="link-dark {% if page.url == c.stub %} page-nav-active{% endif %}">{{ c.title }}</a></li>
+                    {% if page.url == c.stub %}
+                        {% assign prev_number = forloop.index0 | minus: 1 %}
+                        {% assign next_number = forloop.index0 | plus: 1 %}
+                        {% unless forloop.first %}
+                            {% assign prev_page_title = children[prev_number].title %}{% assign prev_page_url = children[prev_number].stub %}
+                        {% endunless %}
+                        {% unless forloop.last %}
+                            {% assign next_page_title = children[next_number].title %}{% assign next_page_url = children[next_number].stub %}
+                        {% endunless %}
+                    {%- endif -%}
+                    {% endfor %}
+                </ul>
+            </li>
+            {% endfor %}
+          
+        </ul>
+
+      </nav>
+
+      <div id="sidebar-footer" class="mt-5 py-3 border-top">
+        
+      </div>
+
+    </div>
+
+    <!-- Page content wrapper-->
+    <div id="page-content-wrapper">
+      
+        <!-- Page content-->
+        <main id="maincontent" role="main" aria-label="Content">
+          <div class="px-1 py-4">
+          {{ content }}
+          </div>
+          
+          {% if prev_page_title or next_page_title %}<hr>{% endif %}
+
+          <div class="my-5 d-flex justify-content-between">
+            {% if prev_page_title %}<a class="btn btn-outline-dark btn-next" href="{{ prev_page_url | relative_url }}">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"/></svg> 
+                {{ prev_page_title }}
+            </a>{% endif %}
+            {% if next_page_title %}<a class="btn btn-outline-dark btn-next" href="{{ next_page_url | relative_url }}">
+                {{ next_page_title }}
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg>
+            </a>{% endif %}
+          </div>
+
+        </main>
+
+    </div>
+</div>
+
+<script>
+    /* mobile sidebar toggle */
+    const sidebarToggle = document.body.querySelector('#sidebarToggle');
+    const sidebarNav = document.body.querySelector('#sidebar-wrapper');
+    sidebarToggle.addEventListener('click', event => {
+        event.preventDefault();
+        sidebarNav.classList.toggle('sidebar-show');
+    });
+</script>

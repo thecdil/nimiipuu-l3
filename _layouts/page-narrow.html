@@ -3,8 +3,9 @@
 # max-width is set in _pages.scss using .page-narrow selector
 layout: default
 ---
-<div class="container my-4">
+<div class="container my-4 pb-5">
   <div class="page-narrow">
-  {{ content }}
+    <h1 class="mb-4">{{ page.title }}</h1>
+    {{ content }}
   </div>
 </div>

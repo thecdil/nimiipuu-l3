@@ -1,7 +1,7 @@
 ---
 title: Geography
 section: Geography
-layout: page
+layout: page-narrow
 permalink: /geography/index.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID152ExpeditionID.html
 ---

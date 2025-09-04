@@ -1,7 +1,7 @@
 ---
 title: Nature
 section: Nature
-layout: page
+layout: page-narrow
 permalink: /nature/index.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID153ExpeditionID.html
 ---

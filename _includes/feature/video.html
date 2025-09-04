@@ -42,7 +42,7 @@
 {%- else -%}
     {% assign video_src = raw_src | relative_url %}
 {%- endif -%}
-<div class="feature-include my-4">
+<div class="feature-include my-4 card card-body">
     <figure class="{% if include.width %} feature-w-{{ include.width }}{% endif %}">
         <div class="ratio ratio-{{ include.ratio | default: '16x9' }}">
             {%- if video_src contains "vimeo" or video_src contains "youtu" -%}
@@ -57,6 +57,21 @@
         {% unless include.caption == false %}
         <figcaption class="figure-caption text-center">
             {{ video_caption }}
+            {% if item.object_transcript %}<br>
+            <button class="btn btn-sm btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript" aria-expanded="false" aria-controls="collapseTranscript">View Transcript</button>
+            <div class="collapse mt-3" id="collapseTranscript">
+                <div class="card card-body text-start">
+                    {% assign transcript_type = item.object_transcript | slice: 0,1 %}
+                    {% if transcript_type == '/' %}
+                    {% assign transcript_location = item.object_transcript | remove_first: '/' %}
+                    {% assign transcript = site.pages | where: 'path', transcript_location | first %}
+                    {{ transcript.content | markdownify }}
+                    {% else %}
+                    {{ item.object_transcript | markdownify }}
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
         </figcaption>
         {% endunless %}
     </figure>

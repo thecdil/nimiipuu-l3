@@ -1,12 +1,6 @@
 ---
-title: Coyote and the Swallowing Monster
-section: Culture
-layout: section-page
-permalink: /culture/coyote.html
-original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID91.html
+# Coyote and the Swallowing Monster, told by Mari Watters, Nimíipuu, 1991
 ---
-
-{% include feature/audio.html objectid="nimiipuu-l3-098" caption="Coyote and the Swallowing Monster, told by Mari Watters, Nimíipuu, 1991" %}
 
 Coyote . . . was going upstream.
 

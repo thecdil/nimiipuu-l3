@@ -24,9 +24,9 @@ On this page you can glimpse some of the dynamic creativity of _Nimíipuu_. Ange
 
 {% include feature/video.html objectid="nimiipuu-l3-080" caption='Yvonne LeCornn reads one of her poems, "Native American Goddess and Alaskan Native Queen." (Interviewed by Ann McCormack, March 2002)' %}
 
-{% include feature/video.html objectid="nimiipuu-l3-081" caption="Yvonne LeCornn talks about her inspiration to write poetry. (Interviewed by Ann McCormack March 2002)' %}
+{% include feature/video.html objectid="nimiipuu-l3-081" caption="Yvonne LeCornn talks about her inspiration to write poetry. (Interviewed by Ann McCormack March 2002)" %}
 
-{% include feature/video.html objectid="nimiipuu-l3-082" caption='Yvonne LeCornn reads her poem, "Two Feathers in the Wind," in memory of her sister and her sister's half brother. (Interviewed by Ann McCormack, March 2002)' %}
+{% include feature/video.html objectid="nimiipuu-l3-082" caption="Yvonne LeCornn reads her poem, \"Two Feathers in the Wind,\" in memory of her sister and her sister's half brother. (Interviewed by Ann McCormack, March 2002)" %}
 
 Abraham "Gabe" Yearout anchors his paintings in traditional _Nimíipuu_ values and themes thus able to better express for him the importance of basketball, horses, and serving his country. Also using brush and paints, Nakia Williamson continues the imagery and style of his family's beadwork patterns into the lines, shapes, and colors of his paintings.
 

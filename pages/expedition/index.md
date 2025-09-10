@@ -8,7 +8,7 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID80E
 
 {% capture side %}
 
-{% include feature/video.html objectid="nimiipuu-l3-020" caption='A 1954 American view of the "wilderness," from the Encyclopedia Britannica Film, "Lewis and Clark"' %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-020" caption='A 1954 American view of the "wilderness," from the Encyclopedia Britannica Film, "Lewis and Clark"' %}
 
 [View the full "Lewis and Clark," 17-minute 1954 Encyclopedia Britannica Film]({{ '/items/nimiipuu-l3-021.html' | relative_url }})
 
@@ -49,7 +49,7 @@ The following sites offer great information on the Nez Perce (Nee-Me-Poo) Trail,
 
 ## Nimíipuu Perspective
 
-{% include feature/video.html objectid="nimiipuu-l3-023" caption='Mylie Lawyer tells of the initial contact with the Corps of Discovery and subsequent assistance provided by the Nimíipuu. (Interviewed by Ann McCormeck and Josiah Pinkham in Feburary 2002)' %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-023" caption='Mylie Lawyer tells of the initial contact with the Corps of Discovery and subsequent assistance provided by the Nimíipuu. (Interviewed by Ann McCormeck and Josiah Pinkham in Feburary 2002)' %}
 
 **While there had been** initial discussion on whether to attack or assist the Corps of Discovery, the _Nimíipuu_ ultimately extended their hands in friendship to Lewis and Clark. In [Twisted Hair's village]({{ '/expedition/twisted-hair.html' | relative_url }}), the men of the Corps of Discovery were given lodging and fed "buffalo meat, some tried salmon berries and roots in different states," made into a "bread and soup." And they "ate heartily." The _Nimíipuu_ helped Lewis and Clark prepare maps for their journey ahead, showed them how to fashion [canoes]({{ '/expedition/twisted-hair.html' | relative_url }}), accompanied them as guides on their journey down river, and cared for their horses until they returned the following spring. Upon their return in May of 1806, the Corps was again treated with friendship by Broken Arm and the _Nimíipuu_, as Lewis and Clark awaited their crossing over the Bitterroots. They settled in at Camp Chopunnish, along the Clearwater River near the [Heart of the Monster]({{ '/culture/coyote.html' | relative_url }}). The _Nimíipuu_ thus provided Lewis and Clark much needed hospitality, allowing the men of the Corps of Discovery to rest after their difficult journeys over the Bitterroot Mountains in 1805 and upon returning up the Columbia River in 1806.
 
@@ -59,11 +59,11 @@ In exchange for their assistance, the _Nimíipuu_ received colored ribbons and J
 
 While their relations with Lewis and Clark and the men of the Corps of Discovery was most amicable and promised future benefit for the _Nimíipuu_, their meeting on the camas fields of Weippe prairie on September 20th 1805 would also signal for the _Nimíipuu_ the beginning of an unprecedented onslaught of events that would challenge the very foundations of their way of life.
 
-{% include feature/video.html objectid="nimiipuu-l3-024" caption='Silas Whitman offers his perspective on the impact of the Corps of Discovery on the Nimíipuu. (Interviewed by Josiah Pinkham in January 2002)' %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-024" caption='Silas Whitman offers his perspective on the impact of the Corps of Discovery on the Nimíipuu. (Interviewed by Josiah Pinkham in January 2002)' %}
 
 With the coming of the _soyaapos_ to Indian country, the "acquisitions" included the [ravages of smallpox and other epidemic diseases]({{ '/culture/disease.html' | relative_url }}) would take an immense toll in loss of life, felt as early as the 1780s and continuing through the nineteenth century. In 1811 the first [fur traders]({{ '/culture/fur-trade.html' | relative_url }}) began settling along the Clearwater River, seeking out their fortune, and soon were replaced by an even greater number of gold seekers. In 1833, [missionaries]({{ '/culture/missionaries.html' | relative_url }}) would begin preaching and coercing to "save souls," and bringing with them disillusionment and factionalism that would rip families apart, pitting brother against brother, and undermining traditional ways. Governors and Superintendents of Indian Affairs would, in rather heavy-handed fashion, establish ["treaties of peace" in 1855 and 1863]({{ '/culture/treaties.html' | relative_url }}). And with these treaties came a curtailing of a people's once unobstructed travel in alignment with the [changing seasons]({{ '/culture/winter-to-summer.html' | relative_url }}). And with the creation of these "reserved lands" or reservations would also come the [conflict of 1877 and then defeat]{{ '/culture/treaties.html' | relative_url }}), and an undermining of a people's sovereignty. In the 1890s, an [allotment act]({{ '/culture/treaties.html' | relative_url }}) would be unilaterally imposed onto the _Nimíipuu_, further eroding a land-base so essential to the people.
 
-{% include feature/video.html objectid="nimiipuu-l3-025" caption='Beatrice Miles reflects on the significance of Lewis and Clark for the Nimíipuu. (Interviewed by Josiah Pinkham in December 2001)' %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-025" caption='Beatrice Miles reflects on the significance of Lewis and Clark for the Nimíipuu. (Interviewed by Josiah Pinkham in December 2001)' %}
 
 While hands of friendship were extended, U.S. Army officers Meriwether Lewis and William Clark have brought a "face" to a potentially devastating set of events, symbolizing much of the ambivalence, as well as threat _soyaapo_ "civilization" would come to mean to the _Nimíipuu_. While benefits from the new _soyaapo_ relationship are acknowledged, "discovery" has also come to mean loss of human life, loss of access to land and water, loss of wildlife habitat and endangerment of the salmon, and loss of cultural ways.
 

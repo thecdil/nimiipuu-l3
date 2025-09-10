@@ -1,6 +1,5 @@
 {% comment %}
 custom feature for L3, provide one audio objectid, generates a button with caption, click opens a modal with audio player
-requires js/feature-modals.html custom foot!
 
     Audio embed from an item's objectid or external link.
     This include adds a audio embed to the page using the html "audio" element.
@@ -23,18 +22,18 @@ requires js/feature-modals.html custom foot!
 
 {% endcomment %}
 {% if include.objectid contains "/" %}
-{%- capture src -%}{{ include.objectid | relative_url }}{%- endcapture -%}
-{%- capture audio_link -%}{{ src }}{%- endcapture -%}
-{%- capture audio_caption -%}{{ include.caption }}{%- endcapture -%}
-{%- capture audio_title -%}{{ include.title }}{%- endcapture -%}
-{% capture audio_transcript %}{{ include.transcript }}{% endcapture %}
+    {%- capture src -%}{{ include.objectid | relative_url }}{%- endcapture -%}
+    {%- capture audio_link -%}{{ src }}{%- endcapture -%}
+    {%- capture audio_caption -%}{{ include.caption }}{%- endcapture -%}
+    {%- capture audio_title -%}{{ include.title }}{%- endcapture -%}
+    {% capture audio_transcript %}{{ include.transcript }}{% endcapture %}
 {% else %}
-{%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
-{%- capture audio_link -%}{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}{%- endcapture -%}
-{%- capture src -%}{{ item.object_location | relative_url }}{% endcapture %}
-{%- capture audio_caption -%}{% if include.caption %}{{ include.caption }}{% else %}{{ item.description }}{% endif %}{%- endcapture -%}
-{%- capture audio_title -%}{% if include.caption %}{{ include.title }}{% else %}{{ item.title }}{% endif %}{%- endcapture -%}
-{% capture audio_transcript %}{{ include.transcript | default: item.object_transcript }}{% endcapture %}
+    {%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
+    {%- capture audio_link -%}{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}{%- endcapture -%}
+    {%- capture src -%}{{ item.object_location | relative_url }}{% endcapture %}
+    {%- capture audio_caption -%}{% if include.caption %}{{ include.caption }}{% else %}{{ item.description }}{% endif %}{%- endcapture -%}
+    {%- capture audio_title -%}{% if include.title %}{{ include.title }}{% else %}{{ item.title }}{% endif %}{%- endcapture -%}
+    {% capture audio_transcript %}{{ include.transcript | default: item.object_transcript }}{% endcapture %}
 {% endif %}
 {% capture includeid %}{% if include.objectid.size > 10 %}{{ include.objectid | slice: -10, 10 | slugify }}{% else %}{{ include.objectid | slugify }}{% endif %}{% endcapture %}
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{ includeid }}Modal">

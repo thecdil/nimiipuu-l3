@@ -23,6 +23,6 @@ Working with the Library of Congress and the Washington State University Library
 {% include feature/audio-modal.html objectid="nimiipuu-l3-108" %}
 {% include feature/audio-modal.html objectid="nimiipuu-l3-109" %}
 
-{% include feature/video.html objectid="nimiipuu-l3-103" caption="Leroy Seth talks about the old time dance movements. (Interviewed by Josiah Pinkham and Nakia Williamson February 2002)." %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-103" caption="Leroy Seth talks about the old time dance movements. (Interviewed by Josiah Pinkham and Nakia Williamson February 2002)." %}
 
 © Nez Perce Tribe 2002

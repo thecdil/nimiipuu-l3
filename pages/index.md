@@ -5,7 +5,7 @@ permalink: /
 original: https://www.lib.uidaho.edu/digital/L3/Sites/ShowScenarioSiteID34.html
 ---
 
-{% include feature/video.html objectid="nimiipuu-l3-001" caption="Welcome from Sam Penney, Former Nez Perce Tribal Executive Committee Chairman" %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-001" caption="Welcome from Sam Penney, Former Nez Perce Tribal Executive Committee Chairman" %}
 
 [Ta'c léeheyn <br>Enter Here]({{ '/culture/index.html' | relative_url }}){:.btn .btn-lg .btn-success}
 {:.text-center}

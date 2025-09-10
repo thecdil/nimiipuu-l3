@@ -8,11 +8,11 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID79E
 
 **We are _Nimíipuu_**, "the people"; we are '_Iceyéeyenim mamáy_'_ac_, "children of the Coyote."
 
-{% include feature/video.html objectid="nimiipuu-l3-041" caption="Carla High Eagle, former Nez Perce Tribal Executive Committee (NPTEC) member, tells of what it means for her to be Nimíipuu, while on her 2001 annual visit to the Big Hole Battle site (part of the Nez Perce Conflict of 1877). (Interviewed by Dan Kane, August 2001; edited by Rodney Frey, October 2001)" %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-041" caption="Carla High Eagle, former Nez Perce Tribal Executive Committee (NPTEC) member, tells of what it means for her to be Nimíipuu, while on her 2001 annual visit to the Big Hole Battle site (part of the Nez Perce Conflict of 1877). (Interviewed by Dan Kane, August 2001; edited by Rodney Frey, October 2001)" %}
 
 William Clark reported that we called ourselves the "Chop pun-nish or Pierced noses." And hence forth the _soyaapos_ (white people) would call us, "the Nez Perce," literally meaning, "pierced noses," though we seldom practiced the custom of piercing our noses.
 
-{% include feature/video.html objectid="nimiipuu-l3-042" caption="Julia Davis, former NPTEC member, tells of the meaning of Nimíipuu and Nez Perce, while on her 2001 annual visit to the Big Hole Battle site. (Interviewed by Dan Kane, August 2001; edited by Rodney Frey, October 2001)" %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-042" caption="Julia Davis, former NPTEC member, tells of the meaning of Nimíipuu and Nez Perce, while on her 2001 annual visit to the Big Hole Battle site. (Interviewed by Dan Kane, August 2001; edited by Rodney Frey, October 2001)" %}
 
 One of our tribal elders, **Cecil Carter**, tells of a name we had before we had horses, _Cuupn_'_itpel_'_uu_. The name means, we walked out of the woods or walked out of the mountains. It is a very old word.
 

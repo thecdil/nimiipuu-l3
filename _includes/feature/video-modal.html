@@ -59,14 +59,20 @@ Doesn't properly stop youtube or vimeo videos yet
     {% assign video_type = 'video' %}
 {%- endif -%}
 {% capture includeid %}{% if include.objectid.size > 10 %}{{ include.objectid | slice: -10, 10 | slugify }}{% else %}{{ include.objectid | slugify }}{% endif %}{% endcapture %}
-<div class="card w-50 my-5">
+<div class="card col-md-6 my-5 mx-auto">
     {% if video_poster %}<img src="{{ video_poster | relative_url }}" class="card-img-top" alt="{{ video_title | escape }}">{% endif %}
     <div class="card-body text-center">
         <p class="card-text">{{ video_caption }}</p>
-        <a href="#" class="btn btn-sm btn-primary stretched-link" role="button" data-bs-toggle="modal" data-bs-target="#{{ includeid }}Modal">View Video</a>
+        <button class="btn btn-sm btn-primary stretched-link" type="button" data-bs-toggle="modal" data-bs-target="#{{ includeid }}Modal">
+            View Video
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+        <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+    </svg>
+        </button>
     </div>
 </div>
-<div class="modal fade" id="{{ includeid }}Modal" tabindex="-1" aria-labelledby="{{ includeid }}ModalLabel" aria-hidden="true">
+<div class="modal fade" id="{{ includeid }}Modal" tabindex="-1" aria-labelledby="{{ includeid }}ModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -87,26 +93,29 @@ Doesn't properly stop youtube or vimeo videos yet
                     </div>
                     {% unless include.caption == false %}
                     <figcaption class="figure-caption text-center">
-                        {{ video_caption }}<br>
-                        <a href="{{ video_link }}" class="btn btn-sm btn-outline-secondary m-2">View Item Page</a>
-                        {% if video_transcript != '' %}
-                        <button class="btn btn-sm btn-outline-secondary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript{{ includeid }}" aria-expanded="false" aria-controls="collapseTranscript{{ includeid }}">View Transcript</button>
-                        <div class="collapse mt-3" id="collapseTranscript{{ includeid }}">
-                            <div class="card card-body text-start">
-                                {% assign transcript_type = video_transcript | slice: 0,1 %}
-                                {% if transcript_type == '/' %}
-                                {% assign transcript_location = video_transcript | remove_first: '/' %}
-                                {% assign transcript = site.pages | where: 'path', transcript_location | first %}
-                                {{ transcript.content | markdownify }}
-                                {% else %}
-                                {{ video_transcript | markdownify }}
-                                {% endif %}
-                            </div>
-                        </div>
-                        {% endif %}
+                        {{ video_caption }}
                     </figcaption>
                     {% endunless %}
                 </figure>
+            </div>
+            <div class="modal-footer">
+                {% if video_transcript != '' %}
+                <div class="collapse mt-3" id="collapseTranscript{{ includeid }}">
+                    <div class="card card-body text-start">
+                        {% assign transcript_type = video_transcript | slice: 0,1 %}
+                        {% if transcript_type == '/' %}
+                        {% assign transcript_location = video_transcript | remove_first: '/' %}
+                        {% assign transcript = site.pages | where: 'path', transcript_location | first %}
+                        {{ transcript.content | markdownify }}
+                        {% else %}
+                        {{ video_transcript | markdownify }}
+                        {% endif %}
+                    </div>
+                </div>
+                <button class="btn btn-outline-primary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript{{ includeid }}" aria-expanded="false" aria-controls="collapseTranscript{{ includeid }}">View Transcript</button>
+                {% endif %}
+                <a href="{{ video_link }}" class="btn btn-outline-dark m-2">Visit Item Page</a>
+                <button type="button" class="btn btn-dark" data-bs-dismiss="modal" {% if video_type == 'video' %}onclick="document.querySelector('#{{ includeid }}ModalVideo video').pause();"{% endif %}>Close</button>
             </div>
         </div>
     </div>

@@ -1,0 +1,83 @@
+{% comment %}
+custom feature for L3, provide one audio objectid, generates a button with caption, click opens a modal with audio player
+requires js/feature-modals.html custom foot!
+
+    Audio embed from an item's objectid or external link.
+    This include adds a audio embed to the page using the html "audio" element.
+
+    E.G. --> {% include feature/audio-modal.html objectid="demo_003" %}
+
+    It requires an "objectid" with the include, which is used to find the audio details. Alternatively, a URL to an external audio file can be used in "objectid".
+
+    Options: 
+    - "objectid" = several options below (required)
+        - an objectid of an audio item in this collection, e.g. "demo_003" 
+        - an external link to an MP3 file hosted elsewhere, e.g. "https://www.lib.uidaho.edu/digital/mp3s/Clouds.mp3"   
+        - a relative link to an MP3 file somewhere else in this repository, e.g. "/assets/{{ includeid }}.mp3"
+    - "title" = by default automatically adds the title from item metadata, which will be used for the modal btn and modal title. Manually set by using the title option. (optional)
+    - "caption" = by default the figure include automatically uses the description of the item from your metadata. The caption option allows you to manually add a different caption, or give the value false for none. (optional)
+    - "transcript" = by default if using an objectid, if the item has a object_transcript value, the view transcript button will automatically be added. The transcript option allows you to manually add a different transcript or provide one for non-collection videos. (optional)
+
+    Note: if you have issues make sure the item is a audio item.
+    Audio file may not play correctly from dev server on Chrome browser! It will work in production.
+
+{% endcomment %}
+{% if include.objectid contains "/" %}
+{%- capture src -%}{{ include.objectid | relative_url }}{%- endcapture -%}
+{%- capture audio_link -%}{{ src }}{%- endcapture -%}
+{%- capture audio_caption -%}{{ include.caption }}{%- endcapture -%}
+{%- capture audio_title -%}{{ include.title }}{%- endcapture -%}
+{% capture audio_transcript %}{{ include.transcript }}{% endcapture %}
+{% else %}
+{%- assign item = site.data[site.metadata] | where: "objectid", include.objectid | first -%}
+{%- capture audio_link -%}{{ '/items/' | relative_url }}{% if item.parentid %}{{ item.parentid }}.html#{{ item.objectid }}{% else %}{{ item.objectid }}.html{% endif %}{%- endcapture -%}
+{%- capture src -%}{{ item.object_location | relative_url }}{% endcapture %}
+{%- capture audio_caption -%}{% if include.caption %}{{ include.caption }}{% else %}{{ item.description }}{% endif %}{%- endcapture -%}
+{%- capture audio_title -%}{% if include.caption %}{{ include.title }}{% else %}{{ item.title }}{% endif %}{%- endcapture -%}
+{% capture audio_transcript %}{{ include.transcript | default: item.object_transcript }}{% endcapture %}
+{% endif %}
+{% capture includeid %}{% if include.objectid.size > 10 %}{{ include.objectid | slice: -10, 10 | slugify }}{% else %}{{ include.objectid | slugify }}{% endif %}{% endcapture %}
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{ includeid }}Modal">
+    {{ audio_title }}
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi icon-sprite" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+        <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445"/>
+    </svg>
+</button>
+<div class="modal fade" id="{{ includeid }}Modal" tabindex="-1" aria-labelledby="{{ includeid }}ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="{{ includeid }}ModalLabel">{{ audio_title }}</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="document.querySelector('#{{ includeid }}ModalAudio').pause();"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-center my-3">
+                    <audio controls class="w-100" preload="metadata" id="{{ includeid }}ModalAudio">
+                        <source src="{{ src }}" >
+                        Your browser does not support the audio element, please <a href="{{ audio_link }}">download the file to listen</a>.
+                    </audio>
+                    {% unless include.caption == false %}<p class="figure-caption">
+                        {{ audio_caption }}<br>
+                        <a href="{{ audio_link }}" class="btn btn-sm btn-outline-secondary m-2">View Item Page</a>
+                        {% if audio_transcript != '' %}
+                        <button class="btn btn-sm btn-outline-secondary m-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTranscript{{ includeid }}" aria-expanded="false" aria-controls="collapseTranscript{{ includeid }}">View Transcript</button>
+                        <div class="collapse mt-3" id="collapseTranscript{{ includeid }}">
+                            <div class="card card-body text-start">
+                                {% assign transcript_type = audio_transcript | slice: 0,1 %}
+                                {% if transcript_type == '/' %}
+                                {% assign transcript_location = audio_transcript | remove_first: '/' %}
+                                {% assign transcript = site.pages | where: 'path', transcript_location | first %}
+                                {{ transcript.content | markdownify }}
+                                {% else %}
+                                {{ audio_transcript | markdownify }}
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </p>{% endunless %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

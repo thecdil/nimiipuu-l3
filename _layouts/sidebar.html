@@ -5,7 +5,7 @@ layout: default
 <div id="breadcrumb-header" class="bg-white border-bottom">
     <div class="container d-flex align-items-center">
 
-      <button class="btn" id="sidebarToggle" title="Toggle sidebar navigation" aria-controls="sidebar-wrapper">
+      <button class="btn btn-outline-dark" id="sidebarToggle" title="Toggle sidebar navigation" aria-controls="sidebar-wrapper">
         Section Content
       </button>
       
@@ -41,7 +41,7 @@ layout: default
                 <h2 class="h4">{{ s }}</h2>
                 <ul class="list-unstyled fw-normal pb-3 small">
                     {% for c in children %}
-                    <li><a href="{{ c.stub | relative_url }}" class="link-dark {% if page.url == c.stub %} page-nav-active{% endif %}">{{ c.title }}</a></li>
+                    <li class="mb-2 side-bar-item"><a href="{{ c.stub | relative_url }}" class="{% if page.url == c.stub %}link-primary link-underline-primary link-offset-2 page-nav-active{% else %}link-dark{% endif %}">{{ c.title }}</a></li>
                     {% if page.url == c.stub %}
                         {% assign prev_number = forloop.index0 | minus: 1 %}
                         {% assign next_number = forloop.index0 | plus: 1 %}

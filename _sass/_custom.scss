@@ -70,23 +70,12 @@
 }
 
 /* set up sidebar nav item styles */
-.side-bar-item {
-    display: inline-flex;
-    align-items: center;
-    padding: .25rem .5rem;
-    font-weight: 600;
-    color: rgba(0, 0, 0, .75);
-    background-color: transparent;
-    border: 0;
-}
 .side-bar-item:hover, .side-bar-item:focus {
     color: rgba(0, 0, 0, .85);
     background-color: #d2f4ea;
 }
-
 .page-nav-active {
     text-decoration: underline;
-    color: blue;
 }
 
 /* poetry indent */

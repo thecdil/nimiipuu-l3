@@ -16,12 +16,14 @@ This brief selection of songs is from the Sam Morris collection of sixty-nine Ne
 
 Working with the Library of Congress and the Washington State University Library, Loran Olsen, project director, transferred sixty-one of these songs to tape and had them enhanced, completing the process in 1995. This set of 61 songs is available on CD through the Northwest Interpretive Association (Seattle, WA 98104; 206-220-4140). A portion of the sale from this CD goes to Nez Perce Tribal Scholarship Fund. The project was endorsed by the Nez Perce Cultural Program, and funded by Library of Congress, Idaho Humanities Council, Idaho Commission on the Arts, and the Fund for Folk Culture. Permission was obtained from the NIA to use these recordings on this web site. All materials are © Board of Regents of Washington State University.
 
-{% include feature/audio-modal.html objectid="nimiipuu-l3-104" %}
-{% include feature/audio-modal.html objectid="nimiipuu-l3-105" %}
-{% include feature/audio-modal.html objectid="nimiipuu-l3-106" %}
-{% include feature/audio-modal.html objectid="nimiipuu-l3-107" %}
-{% include feature/audio-modal.html objectid="nimiipuu-l3-108" %}
-{% include feature/audio-modal.html objectid="nimiipuu-l3-109" %}
+<div class="row">
+<div class="col-md-6">{% include feature/audio-modal.html objectid="nimiipuu-l3-104" heading_level="h3" %}</div>
+<div class="col-md-6">{% include feature/audio-modal.html objectid="nimiipuu-l3-105" heading_level="h3" %}</div>
+<div class="col-md-6">{% include feature/audio-modal.html objectid="nimiipuu-l3-106" heading_level="h3" %}</div>
+<div class="col-md-6">{% include feature/audio-modal.html objectid="nimiipuu-l3-107" heading_level="h3" %}</div>
+<div class="col-md-6">{% include feature/audio-modal.html objectid="nimiipuu-l3-108" heading_level="h3" %}</div>
+<div class="col-md-6">{% include feature/audio-modal.html objectid="nimiipuu-l3-109" heading_level="h3" %}</div>
+</div>
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-103" caption="Leroy Seth talks about the old time dance movements. (Interviewed by Josiah Pinkham and Nakia Williamson February 2002)." %}
 

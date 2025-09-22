@@ -7,7 +7,8 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID137
 ---
 
 {% capture side %}
-A Lewis and Clark Perspective
+## A Lewis and Clark Perspective
+{:.h4}
 
 On September 22nd 1805, William Clark wrote in his journal:
 

@@ -15,6 +15,7 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID80E
 ------
 
 ## A Lewis and Clark Perspective
+{:.h4}
 
 After the difficult crossing over the Bitterroot Mountains, the Corps of Discovery had left the territory of the United States, lands acquired in 1803 as part of the Louisiana Purchase. They were now journeying into territory Britain claimed as part of Canada (until a treaty with the United States in 1846 established the 49th parallel as the boundary separating Canada and the United States). In addition to Britian, Lewis and Clark would soon discover that these were lands that were claimed by other peoples as well, since time immemorial.
 

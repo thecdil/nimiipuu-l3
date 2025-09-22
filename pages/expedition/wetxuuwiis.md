@@ -7,7 +7,8 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID143
 ---
 
 {% capture side %}
-A Lewis and Clark Perspective
+## A Lewis and Clark Perspective
+{:.h4}
 
 On September 21st 1805, William Clark mentioned in his journal a "Squar" [squaw], who "had formerly been taken by the Minitarries of the north & Seen white men." 
 

@@ -7,7 +7,8 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID139
 ---
 
 {% capture side %}
-A Lewis and Clark Perspective
+## A Lewis and Clark Perspective
+{:.h4}
 
 William Clark wrote in his journal:
 

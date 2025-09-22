@@ -8,7 +8,7 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://thecdil.github.io
+url: https://cdil.lib.uidaho.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
 baseurl: /nimiipuu-l3
 # location of code, the full url to your github repository

@@ -8,7 +8,7 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID93.
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-187" caption="Horace Axtell tells of an account of the Coyote and Monster, and the origin of Hells Canyon and Seven Devils mountains, Part 1. (Interviewed by Josiah Pinkham March 2002)" %}
 
-Listen to this story told in [**_Nimíipuutimptneewit_**, the Nez Perce language](({{ '/culture/language-program.html' | relative_url }})).
+Listen to this story told in [**_Nimíipuutimptneewit_**, the Nez Perce language]({{ '/culture/language-program.html' | relative_url }}).
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-188" caption="Horace Axtell continues telling of the Coyote and Monster, and the creation of the various peoples, including the Nimíipuu. Part 2. (Interviewed by Josiah Pinkham March 2002)" %}
 

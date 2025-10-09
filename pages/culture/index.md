@@ -18,7 +18,7 @@ One of our tribal elders, **Cecil Carter**, tells of a name we had before we had
 
 Some of our southern neighbors, such as the Shoshone and Bannock, called us "people under the tule." It was in reference to the [tule mat-covered]({{ '/items/nimiipuu-l3-043.html' | relative_url }}), long houses we lived in. In addition to the long houses, we covered our [conical tipi-like lodges]({{ '/items/nimiipuu-l3-044.html' | relative_url }}) with tule mats. Tule was a wonderful material to cover our lodges. When wet these reeds would swell to form airtight mats for our winter lodges to keep us warm, then during the summer, air circulated easly through them to cool our lodges.
 
-Our southern neighbors also referred to as "Cous eaters," because of the roots we gathered. One of the principle roots we relied upon was [cous](({{ '/items/nimiipuu-l3-045.html' | relative_url }}). Cous is used for food and medicine.
+Our southern neighbors also referred to as "Cous eaters," because of the roots we gathered. One of the principle roots we relied upon was [cous]({{ '/items/nimiipuu-l3-045.html' | relative_url }}). Cous is used for food and medicine.
 
 {% include feature/image.html objectid="nimiipuu-l3-046" caption="Heart of the Monster, along the Clearwater River, near Kamiah, photo taken by J. A. Hussey, c. 1963. Photo courtesy of the Nez Perce National Historical Park" %}
 

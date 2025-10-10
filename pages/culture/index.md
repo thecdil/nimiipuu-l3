@@ -38,4 +38,4 @@ Whether we call ourselves by the name _Cuupn_'_itpel_'_uu_, Nez Perce, _Nimíipu
 
 © Nez Perce Tribe 2002
 
-{% include feature/image.html objectid="nimiipuu-l3-048;nimiipuu-l3-049" caption="*Going to Mars, drawing by Harry Taylor, Nez Perce" %}
+{% include feature/image.html objectid="nimiipuu-l3-048;nimiipuu-l3-049" caption="Going to Mars, drawing by Harry Taylor, Nez Perce" %}

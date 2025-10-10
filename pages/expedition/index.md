@@ -29,16 +29,16 @@ On September 20th 1805, **William Clark** wrote in his journal:
 
 > I set out early . . . proceeded on through a butifull Country for three miles to a Small Plain in which I found maney Indian lodges, at the distance of 1 mile from the lodges I met 3 boys, when they Saw me ran and hid themselves in the grass I dismounted gave my gun & horse to one of the men, searched in the grass and found 2 of the boys gave them Small pieces of ribin & Sent them forward to the village. Soon after a man Came out to meet me with great Caution and Conducted us to a large Spacious Lodge which he told me (by signs) was a Lodge of his great Chief who had Set out 3 days previous with all the Warriers of the nation to war on a South West derection & would return in 15 or 18 days. the fiew men that were left in the Village aged, great numbers of women gathered around me with much apparent Signs of fear, and apr. pleased they (those people) gave us a Small piece of Buffalow meat, Some dried Salmon berries & roots in different States, Some round and much like an onion which they call (Pas she co) quamash the bread or cake is called Pas-she-co Sweet, of this they make bread and Supe. they also gave us the bread made of this root all of which we eate hartily, I gave them a few small articles as presents, and proceeded on with a Chief to his Village 2 miles in the Same Plain, we were treated kindly in their way and continued with them all night. Those two Villages consist of about 30 double lodges, but few men a number of women & children; They call themselves Cho pun-nish or Perced Noses . . .
 
-**Map**
+### Map
 
-1.  [Lewis and Clark 1806]({{ '/items/nimiipuu-l3-022.html' | relative_url }})
+{% include feature/image.html objectid="nimiipuu-l3-022" %}
 
-**Biographies**
+### Biographies
 
 1.  [Broken Arm]({{ '/people/broken-arm.html' | relative_url }})
 2.  [Twisted Hair]({{ '/people/twisted-hair.html' | relative_url }})
 
-**Web Links**
+### Web Links
 
 The following sites offer great information on the Nez Perce (Nee-Me-Poo) Trail, the Conflict of 1877, and the Lewis and Clark expedition, along with event calendars, maps and other useful materials.
 

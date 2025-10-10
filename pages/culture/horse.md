@@ -18,7 +18,7 @@ While new trading partnerships flourished, the horse would also bring the _Nimí
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-182" caption="Lynn Pinkham discusses her family's cornhusk horse parading outfit, including bridle and temúuheyqt (martingale). The clip concludes with Lynn parading at the Julyamsh Powwow, July 2001. (Interviewed by Ann McCormack, March 2002; Julyamsh video by Rodney Frey)" %}
 
-The Cayuse and the _Nimíipuu_ were the only tribes who selectively breed the horse, transforming it into an agile and responsive animal with tremendous endurance to travel great distances. The horse became a source of pride and wealth, of fun and artistic expression, as well as of spiritual power. Some families had herds of over 1,000 horses. Listen to Horace Axtell tell of the importance of growing up with [horses and of horse racing](ShowOneObjectSiteID34ObjectID94.html).
+The Cayuse and the _Nimíipuu_ were the only tribes who selectively breed the horse, transforming it into an agile and responsive animal with tremendous endurance to travel great distances. The horse became a source of pride and wealth, of fun and artistic expression, as well as of spiritual power. Some families had herds of over 1,000 horses. Listen to Horace Axtell tell of the importance of growing up with [horses and of horse racing]({{ '/culture/family.html' | relative_url }}).
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-183" caption="Josiah Pinkham discusses the temúuheyqt (horse martingale) and the story of the Grizzly Bear beaded-design. (Interviewed by Rodney Frey, March 2002)" %}
 

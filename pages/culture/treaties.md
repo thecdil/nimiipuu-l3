@@ -36,7 +36,7 @@ In 1893, the _Nimíipuu_ were pressured into signing an agreement in which all u
 
 --------
 
-{% include feature/video-modal.html objectid="nimiipuu-l3-249" caption="A 1954 American view of the "ownership" of the west, from an Encyclopedia Britannica Films Production" %}
+{% include feature/video-modal.html objectid="nimiipuu-l3-249" caption='A 1954 American view of the "ownership" of the west, from an Encyclopedia Britannica Films Production' %}
 
 ## Maps
 

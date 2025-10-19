@@ -4,13 +4,14 @@ section: Culture
 layout: section-page
 permalink: /culture/treaties.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID98.html
+gallery: true
 ---
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-247" caption='Clifford Allen asks the question, "should we sign the treaty or not?" and discusses some of the grandmother\'s reactions following the signing of the Treaty of 1855. (Interviewed by Rodney Frey, March 2002)' %}
 
 **Treaties** With the rapid influx of white settlers (coming west over the Oregon Trail) into the new territory "opened up" by Lewis and Clark, and with the tensions running high between settlers and Indians (given the attack on the Marcus Whitman Presbyterian mission in 1847), in 1848 the US Congress established the Oregon Territory. Federal operations increased, including those of the Bureau of Indian Affairs, U.S. Army and General Land Office. Army posts were established at Fort Dalles in 1850 and Fort Walla Walla in 1856.
 
-{% include feature/image.html objectid="nimiipuu-l3-251" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-251" %}
 
 In 1851 Congress created Washington Territory and entrusted Indian responsibilities to the new governor, [Isaac I. Stevens](https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID33ObjectID197.html). Stevens sought to secure treaties with the tribes in order to reserve specific tracts of land to them (reservations), thus opening up the rest of the territory for easier white settlement. In June of 1855 the Walla Walla Treaty Council was held, and along with other tribes, the _Nimíipuu_ secured ownership of a relatively large reservation of some 5.5 million acres.
 
@@ -22,7 +23,7 @@ In the early 1860s gold was discovered on portions of the reservation and trespa
 
 Treaties, such as the 1855 Treaty, included provisions for the ceding of traditional lands to the U.S. Government and creating a reservation boundary. In exchange, the Indian communities would receive agricultural instruction, blacksmith shops, teachers, doctors, schools, hospitals and the allotment of land at the discretion of the president. The tribe was also guaranteed continued off-reservation rights to hunt, fish, gather, and travel, in their "usual and accustomed" places, also known as "unenclosed lands." This was an explicit provision the _Nimíipuu_ sought and obtained in the negotiations.
 
-{% include feature/image.html objectid="nimiipuu-l3-252" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-252" %}
 
 **Dawes Act** On February 8, 1887, Congress passed the Dawes Act, named for its author, Senator Henry Dawes of Massachusetts. Also known as the General Allotment Act, the law allowed the president to break up reservation land into small allotments to be parceled out to individuals. Intended to be a solution to the "Indian problem" of land ownership and rights, its aim was to assimilate the Indians into the body of the nation instead of segregating them on tribally held reservations. The implementation of the Dawes Act is understood as a policy that helped devastate American Indians.
 
@@ -40,9 +41,9 @@ In 1893, the _Nimíipuu_ were pressured into signing an agreement in which all u
 
 ## Maps
 
-{% include feature/image.html objectid="nimiipuu-l3-029" caption="the Aboriginal Territory, as established by the Indian Claims Commission based upon the Treaty of 1863" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-029" caption="the Aboriginal Territory, as established by the Indian Claims Commission based upon the Treaty of 1863" %}
 
-{% include feature/image.html objectid="nimiipuu-l3-033" caption="the Tribal and Allotment Lands, c. 2000 (tribal fee and trust lands are in green, while individual Nez Perce-owned allotments are in pink, on or adjacent to the reservation)." %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-033" caption="the Tribal and Allotment Lands, c. 2000 (tribal fee and trust lands are in green, while individual Nez Perce-owned allotments are in pink, on or adjacent to the reservation)." %}
 
 ## Treaties and Acts
 
@@ -52,7 +53,7 @@ In 1893, the _Nimíipuu_ were pressured into signing an agreement in which all u
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-254;nimiipuu-l3-255" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-254;nimiipuu-l3-255" %}
 
 ## Biographies
 

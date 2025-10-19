@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/fisheries.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID83.html
+gallery: true
 ---
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-164" caption="Aaron Penney, Fisheries Program, discusses the background on the Nez Perce Fisheries Resources Management Department. (Interviewed by Josiah Pinkham in January 2002)" %}
@@ -30,7 +31,7 @@ The **Tunnel Pond Reclamation Project** is exemplary of _Nimíipuu_ reclamation 
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-170;nimiipuu-l3-171" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-170;nimiipuu-l3-171" %}
 
 ## Links
 

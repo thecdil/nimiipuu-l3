@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/winter-to-summer.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID92.html
+gallery: true
 ---
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-256" caption='Josiah Pinkham discusses the seasonal cycle, which was characterized as a "transhumance," rather than "nomadic" pattern. (Interviewed by Rodney Frey, March 2002)' %}
@@ -50,6 +51,6 @@ On October 10th 1805, William Clark wrote in his journal:
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-045;nimiipuu-l3-273;nimiipuu-l3-274;nimiipuu-l3-275;nimiipuu-l3-276;nimiipuu-l3-277;nimiipuu-l3-238;nimiipuu-l3-241;nimiipuu-l3-239;nimiipuu-l3-237;nimiipuu-l3-263;nimiipuu-l3-264;nimiipuu-l3-265;nimiipuu-l3-266;nimiipuu-l3-267;nimiipuu-l3-268;nimiipuu-l3-269;nimiipuu-l3-270;nimiipuu-l3-272" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-045;nimiipuu-l3-273;nimiipuu-l3-274;nimiipuu-l3-275;nimiipuu-l3-276;nimiipuu-l3-277;nimiipuu-l3-238;nimiipuu-l3-241;nimiipuu-l3-239;nimiipuu-l3-237;nimiipuu-l3-263;nimiipuu-l3-264;nimiipuu-l3-265;nimiipuu-l3-266;nimiipuu-l3-267;nimiipuu-l3-268;nimiipuu-l3-269;nimiipuu-l3-270;nimiipuu-l3-272" %}
 
 © Nez Perce Tribe 2002

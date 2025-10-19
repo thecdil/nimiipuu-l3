@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/missionaries.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID97.html
+gallery: true
 ---
 
 **The coming of the Christian** missionaries to _Nimíipuu_ country was anticipated well before their actual arrival. In 1805-06, the _Nimíipuu_ had observed the members of the Corps of Discovery offering prayers from a "black book." With the establishment of Fort Nez Perce in 1816, the same _soyaapo_ behavior was witnessed. While visiting with their Spokane and Flathead neighbors during the early years of the fur trade, the _Nimíipuu_ encountered French-speaking Iroquois trappers who practiced a form of Indian Catholicism. The Hudson Bay Company of Canada encouraged young Salish and Kootenai boys to attend the Anglican Church's Red River Mission School near Winnipeg. As early as 1829, one of these youth, Spokane Garry, had returned and was preaching the virtues of the new Christian religion to numerous tribes throughout the Plateau region. At least one young _Nimíipuu_ likely heard Spokane Garry speak. The name given to him by the _soyaapos_ was, Lawyer, the son of Twisted Hair. He was given this name for his abilities at "debate." In fact, the _Nimíipuu_ sent two of their own youth to the Red River Mission in 1830; one of the boys was the grandson of the prominent headman, Red Grizzly Bear, and given the name, Ellice (Ellis) by the missionaries.
@@ -32,7 +33,7 @@ This would not end missionary influences among the _Nimíipuu_, as Spalding woul
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-205;nimiipuu-l3-040;nimiipuu-l3-204;nimiipuu-l3-206" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-205;nimiipuu-l3-040;nimiipuu-l3-204;nimiipuu-l3-206" %}
 
 ## Biographies 
 

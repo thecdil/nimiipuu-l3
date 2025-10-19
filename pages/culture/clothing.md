@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/clothing.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID138.html
+gallery: true
 ---
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-123" caption="Josiah Pinkham discusses the importance of song and art. (Interviewed by Rodney Frey, March 2002)" %}
@@ -12,15 +13,15 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID138
 
 **The _Nimíipuu_ have always appreciated** great beauty and take great care in every detail of their appearance and cleanliness. Not only was traditional clothing and ornamentation meant to be pleasing for both the wearer and observer, but it also symbolized an expression of ones power, rank, or other indication of individual identity.
 
-{% include feature/image.html objectid="nimiipuu-l3-125;nimiipuu-l3-126" caption="Beaded Wall Pocket belonging to Mylie Lawyer." %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-125;nimiipuu-l3-126" caption="Beaded Wall Pocket belonging to Mylie Lawyer." %}
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-127" caption="Josiah Pinkham discusses trade cloth and otter braid wraps. (Interviewed by Rodney Frey, March 2002)" %}
 
 In the past and continuing today as seen in dance regalia, clothing was made from the dressed hides of various animals, particularly deer, elk, bison, bear, and coyote. What was worn depended upon the season, materials available, and the activity of the wearer. Common clothing included buckskin shirts and leggings often with fringes, breechclouts, mittens, robes, and moccasins. Women often wore long skirts, dresses, and aprons. For special occasions, clothing was decorated with various types of beads, shells, elk teeth, feathers, animal skins, porcupine quills, and other ornaments. Although this practice is not confirmed by oral tradition, Lewis and Clark and other early explorers noted that some _Nimíipuu_ wore a decorative dentalium shell through the pierced septum of their nose; thus the French-Canadian bestowal of the name, "Nez Perce" or Pierced Noses.
 
-{% include feature/image.html objectid="nimiipuu-l3-128" caption="Dentalium Shell. Photo courtesy the Nez Perce National Historical Park (enlarged: actual length about 7 millimeters)" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-128" caption="Dentalium Shell. Photo courtesy the Nez Perce National Historical Park (enlarged: actual length about 7 millimeters)" %}
 
-{% include feature/image.html objectid="nimiipuu-l3-129" caption="Woman's basket hat, typically woven from corn husks or hemp fibers. By Ida Blackeagle, c. 1991. Photo courtesy the Nez Perce National Historical Park" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-129" caption="Woman's basket hat, typically woven from corn husks or hemp fibers. By Ida Blackeagle, c. 1991. Photo courtesy the Nez Perce National Historical Park" %}
 
 _Nimíipuu_ women wore basket hats (fez-shaped) made from twined, grasses and hemp cordage. Feather bonnets were also seen among men, and remain a vital part of powwow dance regalia. Both sexes painted their faces with paints made from various minerals or organic matter mixed with oil. The painting of the face as well as other body parts helped to protect them from the sun, poor weather, and insects. It also acted as a way to communicate mood, intent, attraction, spiritual purpose, or other form of communication.
 
@@ -34,7 +35,7 @@ _Nimíipuu_ women wore basket hats (fez-shaped) made from twined, grasses and he
 
 View some examples of traditional women's clothing:
 
-{% include feature/image.html objectid="nimiipuu-l3-133;nimiipuu-l3-134;nimiipuu-l3-135;nimiipuu-l3-136;nimiipuu-l3-137;nimiipuu-l3-129" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-133;nimiipuu-l3-134;nimiipuu-l3-135;nimiipuu-l3-136;nimiipuu-l3-137;nimiipuu-l3-129" %}
 
 --------
 
@@ -57,6 +58,6 @@ And **Clark** continued on October 10th 1805:
 
 --------
 
-{% include feature/image.html objectid="nimiipuu-l3-122" caption="Angel and Payton Sobotta in Regalia - during a November 2001 Powwow." %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-122" caption="Angel and Payton Sobotta in Regalia - during a November 2001 Powwow." %}
 
 © Nez Perce Tribe 2002

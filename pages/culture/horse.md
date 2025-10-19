@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/horse.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID105.html
+gallery: true
 ---
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-181" caption="Josiah Pinkham discusses the influence of the rifle and horse on buffalo hunting. (Interviewed by Rodney Frey, March 2002)" %}
@@ -24,6 +25,6 @@ The Cayuse and the _Nimíipuu_ were the only tribes who selectively breed the ho
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-184;nimiipuu-l3-185;nimiipuu-l3-186" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-184;nimiipuu-l3-185;nimiipuu-l3-186" %}
 
 © Nez Perce Tribe 2002

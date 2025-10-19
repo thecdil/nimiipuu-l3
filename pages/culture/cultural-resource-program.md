@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/cultural-resource-program.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID89.html
+gallery: true
 ---
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-008" caption="Vera Sonneck, Director of the Cultural Resource Program. (Interviewed by Josiah Pinkham February 2002)" %}
@@ -22,7 +23,7 @@ It is only through an aggressive and vigilant program of protection, preservatio
 
 ## Images and Documents 
 
-{% include feature/image.html objectid="nimiipuu-l3-111;nimiipuu-l3-112;nimiipuu-l3-113;nimiipuu-l3-114" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-111;nimiipuu-l3-112;nimiipuu-l3-113;nimiipuu-l3-114" %}
 
 - [NAGPRA, Native American Graves Protection and Repatriation Act]({{ '/culture/nagpra.html' | relative_url }})
 - [ARPA, Archaeological Resources Protection Act]({{ '/culture/arpa.html' | relative_url }})

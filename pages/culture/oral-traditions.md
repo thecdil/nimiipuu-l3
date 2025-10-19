@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/oral-traditions.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID93.html
+gallery: true
 ---
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-187" caption="Horace Axtell tells of an account of the Coyote and Monster, and the origin of Hells Canyon and Seven Devils mountains, Part 1. (Interviewed by Josiah Pinkham March 2002)" %}
@@ -42,9 +43,9 @@ At a rock outcropping along the Clearwater River, **Ant and Yellowjacket** began
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-192;nimiipuu-l3-193;nimiipuu-l3-194;nimiipuu-l3-195;nimiipuu-l3-196;nimiipuu-l3-197;nimiipuu-l3-198;nimiipuu-l3-199" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-192;nimiipuu-l3-193;nimiipuu-l3-194;nimiipuu-l3-195;nimiipuu-l3-196;nimiipuu-l3-197;nimiipuu-l3-198;nimiipuu-l3-199" %}
 
-{% include feature/image.html objectid="nimiipuu-l3-200;nimiipuu-l3-201" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-200;nimiipuu-l3-201" %}
 
 {% capture side %}
 ## A Lewis and Clark Perspective 

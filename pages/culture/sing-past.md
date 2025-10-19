@@ -4,11 +4,12 @@ section: Culture
 layout: section-page
 permalink: /culture/sing-past.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID154.html
+gallery: true
 ---
 
 Continuities and Changes in _Nimíipuu_ Songs and Dance
 
-{% include feature/image.html objectid="nimiipuu-l3-102" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-102" %}
 
 ## In the Past
 

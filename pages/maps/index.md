@@ -4,6 +4,7 @@ section: Maps
 layout: page
 permalink: /maps/index.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID145ExpeditionID.html
+gallery: true
 ---
 {% capture side %}
 Some important Nimíipuu locations and rivers, with their American and Lewis and Clark equivalents:
@@ -23,24 +24,24 @@ Some important Nimíipuu locations and rivers, with their American and Lewis and
 
 Illustrating the extent of aboriginal use and influence (from Celilo Falls to Kettle Falls on the Columbia River, from the Yellowstone region to the Lower Snake River area), and the successive reservation boundaries established by the Treaties of 1855 and 1863, as well as the Indian Claims Commission (ICC) boundary. Note the reference to the Bear Paw and Big Hole Battle sites, part of the Conflict of 1877.
 
-{% include feature/image.html objectid="nimiipuu-l3-028" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-028" %}
 
 ## Treaty Maps
 
-{% include feature/image.html objectid="nimiipuu-l3-029;nimiipuu-l3-030;nimiipuu-l3-031;nimiipuu-l3-032" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-029;nimiipuu-l3-030;nimiipuu-l3-031;nimiipuu-l3-032" %}
 
 ## Tribal and Allotment Lands
 
-{% include feature/image.html objectid="nimiipuu-l3-033" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-033" %}
 
 c. 2000, of some 185,000 acres. Tribal fee and trust lands are noted in green, while individual Nez Perce-owned allotments are noted in pink. The allotment process resulted in a land-base in which the tribe and its members only owned approximately 80,000 acres within the reservation boundaries of some 750,000 acres in 1975. A tribal land acquisition program has increased Nez Perce ownership to some 185,000 acres today. Of the 13 million acres once controlled by the Nimíipuu, less than 1.4% of that aboriginal territory is actually owned by the tribe and its members today.
 
 ## Current Tribal Lands in contrast to the ICC boundary
 
-{% include feature/image.html objectid="nimiipuu-l3-034" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-034" %}
 
 Note the land recently acquired by the tribe in Oregon, near the Wallowa Lake area and traditional territory of the Joseph Band.
 
 ## Lewis and Clark 1806 map
 
-{% include feature/image.html objectid="nimiipuu-l3-022" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-022" %}

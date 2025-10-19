@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/summer-to-winter.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID305.html
+gallery: true
 ---
 
 **The _táyam_, summer**, was also the season when many families would travel to the great trading and fishing centers of [Dip net fishing at Celilo Falls](#nimiipuu-l3-246) and at Kettle Falls along the Columbia River. Travel was accomplished by [horse](#nimiipuu-l3-227) along the many trails which crosscross the landscape and by [canoe](#nimiipuu-l3-228) up and down the Clearwater and Columbia rivers and their many tributaries.
@@ -34,12 +35,12 @@ Continue the seasonal round by traveling to [Seasonal Round: Winter into Summer]
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-227;nimiipuu-l3-228;nimiipuu-l3-230" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-227;nimiipuu-l3-228;nimiipuu-l3-230" %}
 
-{% include feature/image.html objectid="nimiipuu-l3-232;nimiipuu-l3-233" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-232;nimiipuu-l3-233" %}
 
-{% include feature/image.html objectid="nimiipuu-l3-237;nimiipuu-l3-238;nimiipuu-l3-239;nimiipuu-l3-241" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-237;nimiipuu-l3-238;nimiipuu-l3-239;nimiipuu-l3-241" %}
 
-{% include feature/image.html objectid="nimiipuu-l3-242;nimiipuu-l3-243;nimiipuu-l3-244;nimiipuu-l3-245;nimiipuu-l3-246" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-242;nimiipuu-l3-243;nimiipuu-l3-244;nimiipuu-l3-245;nimiipuu-l3-246" %}
 
 © Nez Perce Tribe 2002

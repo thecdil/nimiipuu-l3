@@ -4,11 +4,12 @@ section: Culture
 layout: section-page
 permalink: /culture/conflict-1877.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID99.html
+gallery: true
 ---
 
 **What is sometimes** referred to as the "Nez Perce War of 1877," though more accurately called the "Conflict of 1877," actually began long before weapons of war were used. When the [Treaty of 1863 was negotiated]({{ '/culture/treaties.html' | relative_url }}), members of the Wallowa Band in northeast Oregon refused to cede their traditional homelands around Lake Wallowa. Along with other non-Christian bands, they did not take part in signing a treaty that would eliminate their ancestral homelands from the Nez Perce Reservation. After a council with the non-treaty chiefs failed to persuade them to move to the new reservation, Gen. Oliver O. Howard gave a 30-day ultimatum demanding the Indians' prompt "voluntary" relocation. While the non-treaty chiefs such as Joseph, White Bird and Looking Glass made preparations to comply, a handful of young _Nimíipuu_ warriors, seeking retribution for past transgressions, attacked and killed eighteen hostile white settlers living along the Salmon River.
 
-{% include feature/image.html objectid="nimiipuu-l3-138;nimiipuu-l3-139" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-138;nimiipuu-l3-139" %}
 
 Word of the attack quickly spread to Fort Lapwai and General Howard. Knowing that a successful _Nimíipuu_ uprising could be contagious, General Howard, with no contact or direct knowledge of the situation, sent out 103 men from Fort Lapwai. Howard's goal was to effectively place an end to the killings and provide safety for the white settlers by "silencing" the Indians.
 

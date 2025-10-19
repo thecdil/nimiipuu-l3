@@ -4,13 +4,14 @@ section: People
 layout: section-page
 permalink: /people/joseph.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID214.html
+gallery: true
 ---
 
 **Joseph** (_Hinmatooyahlaht'qet_, Lightening or thunder traveling to loftier heights, also interpreted as horse running across the water and the sound of "thunder" bouncing of the cliffs)
 
 "Young" Joseph was born in a cave on Joseph Creek sometime in 1840. He was the son of Tue kas kas and Etoweenonmy (?). Young Joseph was the eventual successor to his father, as the leader of the Wel'ewa band, which occupied the Wallowa-Imnaha areas. Young Joseph was a prominent figure in the negotiations that led up to the Nez Perce War of 1877. Although, not being present at the 1863 treaty negotiations when other "chiefs" sold his land without his consent, Joseph did take part in the tumultuous negotiations on May 3, 1877 at Fort Lapwai.
 
-{% include feature/image.html objectid="nimiipuu-l3-036" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-036" %}
 
 It was during these proceedings, which resulted in Tuu hul hul cuut being jailed by Howard and the Non-treaty bands given 30 days to gather their possessions and move to the new reservation or else be moved there by force.
 

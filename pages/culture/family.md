@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/family.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID94.html
+gallery: true
 ---
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-154" caption="Josiah Pinkham discusses the importance of your Indian name and on receiving his own Indian name, Tipyeléhne cimúx cimúx. (Interviewed by Rodney Frey, March 2002)" %}
@@ -42,6 +43,6 @@ When an individual died, it was announced by the camp herald or crier. The body 
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-161;nimiipuu-l3-162;nimiipuu-l3-163" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-161;nimiipuu-l3-162;nimiipuu-l3-163" %}
 
 © Nez Perce Tribe 2002

@@ -4,6 +4,7 @@ section: Culture
 layout: section-page
 permalink: /culture/spiritual-life.html
 original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID102.html
+gallery: true
 ---
 
 **While many of the missionaries** who worked among the _Nimíipuu_ maintained that these were a people without "religion," a spiritual way of life was and continues to pervade all aspects of _Nimíipuu_ life and is of central importance. When the camas is dug, a powwow begins, a meal is eaten, a tribal council meeting commences, a state basketball championship is honored, all are occasions that begin with prayer to the Creator. The acknowledgment of their [spiritual origins]({{ '/culture/oral-traditions.html' | relative_url }}) and the continued nurturance that comes from their spiritual path is so integrated into the way the _Nimíipuu_ [make a living]({{ '/culture/winter-to-summer.html' | relative_url }}), structure their [families and communities]({{ '/culture/family.html' | relative_url }}), that "religion," per se, is indistinguishable from being _Nimíipuu_.
@@ -22,6 +23,6 @@ The families that make up the _Nimíipuu_ communities today are a rich tapestry 
 
 ## Images
 
-{% include feature/image.html objectid="nimiipuu-l3-225;nimiipuu-l3-226" %}
+{% include feature/image-gallery.html objectid="nimiipuu-l3-225;nimiipuu-l3-226" %}
 
 © Nez Perce Tribe 2002

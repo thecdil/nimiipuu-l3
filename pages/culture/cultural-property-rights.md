@@ -12,7 +12,7 @@ original: https://www.lib.uidaho.edu/digital/L3/ShowOneObjectSiteID34ObjectID303
 
 11 July 2001
 
-**Objective**: The objective of this agreement is to safeguard and protect the cultural property of the _Nimíipuu_ (Nez Perce). Cultural property is defined as knowledge and information concerning ideas, practices, objects, landscape, or any other expressed view associated with the culture of the _Nimíipuu_people. As cultural property information is obtained for this project, we seek to protect it from uses other than those designated by the _Nimíipuu_, and specifically approved by the Nez Perce Tribal Executive Committee and its designated agencies.
+**Objective**: The objective of this agreement is to safeguard and protect the cultural property of the _Nimíipuu_ (Nez Perce). Cultural property is defined as knowledge and information concerning ideas, practices, objects, landscape, or any other expressed view associated with the culture of the _Nimíipuu_ people. As cultural property information is obtained for this project, we seek to protect it from uses other than those designated by the _Nimíipuu_, and specifically approved by the Nez Perce Tribal Executive Committee and its designated agencies.
 
 **Considerations:**
 

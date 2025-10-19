@@ -8,7 +8,7 @@ original: https://www.lib.uidaho.edu/digital/L3/rfrey/nagpra.htm
 
 ## Native American Graves Protection and Repatriation Act
 
-### WHAT IS NAGPRA?
+### WHAT IS NAGPRA?
 
 On November 16, 1990, President George Bush signed the Act into law. The Act addresses the rights of lineal descendants of Indian Tribes and Native Hawaiian organizations to certain Native American human remains, funerary objects, sacred objects, and objects of cultural patrimony with which they are affiliated.
 

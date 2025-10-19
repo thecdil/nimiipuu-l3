@@ -40,7 +40,7 @@ Before proceeding, the Corps of Discovery camped along the Clearwater, near the 
 
 {% include feature/image.html objectid="nimiipuu-l3-016" caption="Canoe Camp along the Clearwater River, center of photo on left side of the Clearwater. Photo by Jane Gay c. 1889-1892. Photo courtesy the Nez Perce National Historical Park" %}
 
-It was during their stay that Sergeant Gass was first to record that the river was abundant "with salmon of an excellent quality" and that the water was "clear as crystal." He also recorded that the captains gave [peace medals]({{ '/items/nimiipuu-l3-012' | relative_url }}) to "leading men of their nation," Twisted Hair and two un-named "chiefs."
+It was during their stay that Sergeant Gass was first to record that the river was abundant "with salmon of an excellent quality" and that the water was "clear as crystal." He also recorded that the captains gave [peace medals](#nimiipuu-l3-012) to "leading men of their nation," Twisted Hair and two un-named "chiefs."
 
 Before launching their new means of travel, Clark made arrangements with Twisted Hair to take care of their thirty-eight horses. Each horse was easily identified, with a brand on its upper left leg reading: "U.S. Capt. M. Lewis." The Corps of Discovery named their camp, "Canoe Camp."
 

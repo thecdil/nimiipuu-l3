@@ -2,7 +2,25 @@
 <script src="{{ '/assets/lib/bootstrap.bundle.min.js' | relative_url }}"></script>
 <!-- load other js -->
 <script src="{{ '/assets/lib/lazysizes.min.js' | relative_url }}" async></script>
-{% if layout.gallery == true or page.gallery == true %}<script src="{{ '/assets/lib/spotlight.bundle.js' | relative_url }}" defer></script>{% endif %}
+{% if layout.gallery == true or page.gallery == true %}<script src="{{ '/assets/lib/spotlight.bundle.js' | relative_url }}" defer></script>
+<script>
+// open spotlight gallery to matching image when link with hash matching the image is clicked
+document.addEventListener('click', function (e) {
+    var a = e.target;
+    while (a && a.tagName !== 'A') a = a.parentElement;
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    if (href.charAt(0) !== '#' || href.length === 1) return;
+    var id = href.slice(1);
+    var target = document.getElementById(id);
+    if (target && target.classList && target.classList.contains('spotlight')) {
+        e.preventDefault();
+        // trigger the spotlight open for that element
+        target.click();
+    }
+});
+</script>
+{%- endif -%}
 {% if page.custom-foot or layout.custom-foot %}
 {%- assign page_feet = page.custom-foot | split: ";" -%}
 {%- assign layout_feet = layout.custom-foot | split: ";" -%}

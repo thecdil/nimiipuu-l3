@@ -49,7 +49,7 @@ In 1893, the _Nimíipuu_ were pressured into signing an agreement in which all u
 
 1. [Treaty of 1855]({{ '/culture/treaty-1855.html' | relative_url }})
 2. [Treaty of 1863]({{ '/culture/treaty-1863.html' | relative_url }})
-3. [Dawes Act of 1887](http://www.uidaho.edu/~rfrey/dawes.htm)
+3. [Dawes Act of 1887](https://web.archive.org/web/20070207224006/http://webpages.uidaho.edu/~rfrey/dawes.htm)
 
 ## Images
 

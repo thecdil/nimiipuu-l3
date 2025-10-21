@@ -867,3 +867,6 @@ They will lead good lives.
 And these will be the Nez Perce . . . "
 
 And that's where the Nez Perce came from . . .
+
+(Text based on the accompanying audio recording, collected by Jane Fritz as part of an Idaho Mythweaver project and hearing by Rodney Frey of the story in August of 1991.)
+{:.mt-5}

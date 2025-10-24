@@ -49,4 +49,22 @@ On September 30 at Bear Paw Mountain about 40 miles from the Canadian border, ; 
 
 Although some _Nimíipuu_ survivors were able to escape to Canada with Chief White Bird, those that surrendered in hope of returning to Idaho were instead relocated to Oklahoma's Indian Country. Eventually, in 1885 the U.S. government allowed _Nimíipuu_ who had converted to Christianity to return to the reservation at Lapwai, Idaho. Chief Joseph and 150 others, who chose to retain their traditional religion, were exiled to a reservation at Colville, Washington.
 
+## Images and Maps
+
+{% include feature/image-gallery.html objectid="nimiipuu-l3-278;nimiipuu-l3-279;nimiipuu-l3-138;nimiipuu-l3-139" %}
+
+## Biographies
+
+- [Joseph]({{ '/people/joseph.html' | relative_url }})
+- [Looking Glass]({{ '/people/looking-glass.html' | relative_url }})
+- [Ollokot]({{ '/people/ollokot.html' | relative_url }})
+- [Peo peo Tholekt]({{ '/people/peo-peo-tholekt.html' | relative_url }})
+- [Tu hul hul'cuut']({{ '/people/tu-hul-hul-cuut.html' | relative_url }})
+- [White Bird]({{ '/people/white-bird.html' | relative_url }})
+- [Yellow Wolf]({{ '/people/yellow-wolf.html' | relative_url }})
+
+## Web Links
+
+- [Nez Perce (Nee-Me-Poo) National Historic Trail](https://www.nps.gov/places/000/nez-perce-national-historic-trail.htm)
+
 © Nez Perce Tribe 2002

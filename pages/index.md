@@ -12,6 +12,16 @@ original: https://www.lib.uidaho.edu/digital/L3/Sites/ShowScenarioSiteID34.html
 
 ------
 
+{% capture note %}
+**_Please note:_** This project was originally published in 2002 as a module in *Lifelong Learning Online - the Lewis & Clark Rediscovery Project*. 
+
+In 2025 the content and media was migrated by University of Idaho Library to ensure continued access to this important and unique material. 
+The original version can still be viewed at the [archived site](https://www.lib.uidaho.edu/digital/L3/Sites/ShowOneSiteSiteID34.html){:.alert-link}.
+
+Please [get in touch](https://uidaho.co1.qualtrics.com/jfe/form/SV_b8yflHg0wwXzmDk?source_link=https://cdil.lib.uidaho.edu/nimiipuu-l3/){:.alert-link} if you encounter issues or questions.
+{% endcapture %}
+{% include feature/alert.html text=note color="warning" %}
+
 ## Scenario
 
 **In this module** you will be introduced to the _Nimíipuu_, also called the Nez Perce. We have a rich and vibrant culture, which has existed since time immemorial and which continues to this day. As a result of your engagement in this module, you will gain a better understanding of the influence of the _Nimíipuu_ not only on Lewis and Clark and the Corps of Discovery, but also on American history and culture. You will also gain an appreciation of how the Corps of Discovery impacted the _Nimíipuu_.

@@ -6,7 +6,7 @@ Nimíipuu L3, from Lifelong Learning Online - the Lewis & Clark Rediscovery Proj
 
 > In this module you will be introduced to the Nimíipuu, also called the Nez Perce. We have a rich and vibrant culture, which has existed since time immemorial and which continues to this day. As a result of your engagement in this module, you will gain a better understanding of the influence of the Nimíipuu not only on Lewis and Clark and the Corps of Discovery, but also on American history and culture. You will also gain an appreciation of how the Corps of Discovery impacted the Nimíipuu.
 
-The original module published in 2004 was migrated multiple times before eventually being transferred to the University of Idaho Library for continued access.
+The original module published in 2002 was migrated multiple times before eventually being transferred to the University of Idaho Library for continued access.
 Those historic files are available at:
 
 <https://www.lib.uidaho.edu/digital/L3/Sites/ShowOneSiteSiteID34.html> 

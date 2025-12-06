@@ -36,7 +36,7 @@ Let us share a closer look at one of the _Nimíipuu_ drums, the Redtail Singers.
 
 {% include feature/video-modal.html objectid="nimiipuu-l3-217" caption="Redtail Singers at the Tutxinmepu Powwow on the University of Idaho campus, October 2001, with Women's Traditional Dancers" %}
 
-Continue your dancing by going to [To Sing and Dance]({{ '/culture/sing-past.html' | relative_url }}) - In the Past, and to [The Songs: the Powwow]({{ '//culture/songs-powwow-cda.html' | relative_url }}), in the Coeur d'Alene module.
+Continue your dancing by going to [To Sing and Dance - In the Past]({{ '/culture/sing-past.html' | relative_url }}), and to [The Songs: the Powwow]({{ '/culture/songs-powwow-cda.html' | relative_url }}), in the Coeur d'Alene module.
 
 --------
 
